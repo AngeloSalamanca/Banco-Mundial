@@ -1,0 +1,58 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-principal{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-operaciones{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#btn-transaccion{
+    border-radius: 10px 0px 10px 0px;
+}
+#btn-continuar{
+    border-radius: 10px 0px 10px 0px;
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-i{
+    display: grid;
+}
+.btn-d{
+    display: grid;
+}
+
+.btn-i button{
+    border-radius: 0px 0px 0px 10px;
+}
+.btn-d button{
+    border-radius: 0px 10px 0px 0px;
+}
+
+.otro-valor{
+    text-align: center;
+}
+
+.numeros button{
+    border-radius: 0px 10px 0px 10px;
+}
